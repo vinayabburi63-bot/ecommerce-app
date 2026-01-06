@@ -1,0 +1,15 @@
+.stars {
+  display: flex;
+  gap: 6px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.star {
+  color: #ccc;
+}
+
+.star.filled {
+  color: #f59e0b;
+}
+

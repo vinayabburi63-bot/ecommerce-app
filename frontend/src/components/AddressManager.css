@@ -1,0 +1,91 @@
+.address-page {
+  padding: 24px;
+  background: #eaeded;
+  min-height: 100vh;
+}
+
+.address-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.back-btn {
+  padding: 8px 14px;
+  background: #e3e6e6;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.back-btn:hover {
+  background: #d5d9d9;
+}
+
+.add-address-btn {
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  padding: 10px 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.address-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.address-card {
+  background: white;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  position: relative;
+}
+
+.address-card.default {
+  border: 2px solid #f08804;
+}
+
+.default-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #ffd814;
+  padding: 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.phone {
+  margin-top: 6px;
+}
+
+.address-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.address-actions button {
+  background: #e3e6e6;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.address-actions .danger {
+  color: crimson;
+  border-color: crimson;
+}
+
+

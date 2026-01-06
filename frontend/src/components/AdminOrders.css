@@ -1,0 +1,73 @@
+admin-orders-page {
+  padding: 20px;
+}
+
+.admin-order-card {
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.1);
+}
+
+.admin-order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-badge {
+  color: white;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.admin-items {
+  margin-top: 10px;
+}
+
+.admin-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.admin-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.admin-address {
+  background: #f9fafb;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.admin-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.ship-btn { background: #2563eb; color: white; }
+.deliver-btn { background: #16a34a; color: white; }
+.approve-btn { background: #22c55e; color: white; }
+.reject-btn { background: #dc2626; color: white; }
+
+.admin-actions button {
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.return-reason {
+  margin-top: 8px;
+  color: #92400e;
+}
+
+
+
+

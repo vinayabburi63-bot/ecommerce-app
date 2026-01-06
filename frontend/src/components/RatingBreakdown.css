@@ -1,0 +1,68 @@
+.amazon-rating-box {
+  max-width: 420px;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.amazon-rating-box h3 {
+  margin-bottom: 10px;
+}
+
+/* AVG RATING */
+.avg-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avg-number {
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.avg-stars .star {
+  font-size: 18px;
+  color: #ddd;
+}
+
+.avg-stars .filled {
+  color: #f59e0b;
+}
+
+.total-ratings {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* BREAKDOWN */
+.break-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 6px 0;
+  font-size: 14px;
+}
+
+.label {
+  width: 45px;
+}
+
+.bar {
+  flex: 1;
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fill {
+  height: 100%;
+  background: #f59e0b;
+}
+
+.percent {
+  width: 40px;
+  text-align: right;
+}

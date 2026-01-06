@@ -1,0 +1,29 @@
+.analytics-page {
+  padding: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.filter input {
+  margin-right: 10px;
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 16px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.analytics-page {
+  padding: 30px;
+  background: #f3f3f3;
+}
+
+.analytics-page h2 {
+  margin-bottom: 20px;
+}
+

@@ -1,0 +1,24 @@
+.timeline {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #aaa;
+}
+.step.active {
+  color: #111;
+}
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #ddd;
+}
+.step.active .dot {
+  background: #f08804;
+}
+
